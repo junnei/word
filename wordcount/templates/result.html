@@ -2,9 +2,9 @@
 
 <a href="{% url 'home'%}">집으로</a>
 
-<h2>입력한 문자 : {{full}} </h2>
-<h3>글자수 세기 : {{sum}}</h3>
-<h4>{% for word, howmany in dictionary %} {{word}} : {{howmany}} <br> {% endfor %}</h4>
+<h2 style="font-style: italic; font-family: Comic Sans MS; font-size: 40px; color:rgb(83, 49, 219)">입력한 문자 : {{full}} </h2>
+<h3 style="font-style: italic; font-family: Comic Sans MS; font-size: 20px; color:rgb(210, 139, 97)">글자수 세기 : {{sum}}</h3>
+<h4 style="font-style: italic; font-family: Comic Sans MS; font-size: 50px; color:rgb(80, 129, 93)">{% for word, howmany in dictionary %} {{word}} : {{howmany}} <br> {% endfor %}</h4>
 <form action="">
     <textarea name="fulltext" id="" cols="30" rows="10"></textarea>
     <input type="submit" value="글자수세기">
